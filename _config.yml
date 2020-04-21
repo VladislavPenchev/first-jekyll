@@ -1,0 +1,12 @@
+title: CSS Advanced
+email: koko@dev.com
+description: Hi there!
+baseurl: ""
+url: "" 
+twitter_username: jjj
+github_username:  jjj
+
+# Build settings
+plugins:
+  - jekyll-feed
+
