@@ -2,12 +2,14 @@ title: CSS Advanced
 email: koko@dev.com
 description: Hi there!
 destination: docs
-baseurl: "/first-jekyll"
+baseurl: ""
+# baseurl: "/first-jekyll"
 url: "" 
 twitter_username: jjj
 github_username:  jjj
 
 # Build settings
+# markdown: kramdown
 plugins:
   - jekyll-feed
 
