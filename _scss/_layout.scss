@@ -8,9 +8,11 @@ body {
 }
 
 .site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include bp(desktop) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .card {
@@ -39,4 +41,8 @@ input:checked + .card .button .more {
 
 input:checked + .card .button .less {
     display: inline;
+}
+
+@include bp(samsung) {
+    display: none;
 }

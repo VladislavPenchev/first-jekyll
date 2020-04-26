@@ -193,8 +193,11 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "child-process": "^1.0.2",
+    "csso": "^4.0.3",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-sass": "^4.1.0"
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
